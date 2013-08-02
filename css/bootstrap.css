@@ -307,7 +307,7 @@ body {
 div.background {
     content: "";
     background: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSfHaRl7sA4EzfKY0W0sci_kkbtGEbNJA7fUK7kb8tFrB4RGgLq");
-    opacity: 0.5;
+    opacity: 0.3;
     top: 0;
     left: 0;
     bottom: 0;
