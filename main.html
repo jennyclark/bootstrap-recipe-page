@@ -8,41 +8,37 @@
 	<link href="css glyph/bootstrap-glyphicons.css" rel="stylesheet">
   </head>
   <body>
-		<!-- JavaScript plugins (requires jQuery) -->
-	    <script src="http://code.jquery.com/jquery.js"></script>
-	    <!-- Include all compiled plugins (below), or include individual files as needed -->
-	    <script src="js/bootstrap.js"></script>
-	    <!-- Optionally enable responsive features in IE8 -->
-	    <script src="js/respond.js"></script>
+  	<div class="background"></div>
+  
 	<div class="container">    
 		<ul id="myTab" class="nav nav-tabs">
 			<li class="active"><a href="#mainDish" data-toggle="tab"style="font-family: cursive;">Main Dish</a></li>
 			<li class><a href="#appetizer" data-toggle="tab"style="font-family: cursive;">Appetizers or Sides</a></li>
 			<li class><a href="#desert" data-toggle="tab"style="font-family: cursive;">Deserts</a></li>
 		</ul>
-		<div class="page-header"><h1 class="text-muted"style="font-family: cursive;">Jenny's Recipies</h1></div>	
+		<div class="page-header"><h1 class="text-muted text-center"style="font-family: cursive;">Jenny's Recipes</h1></div>	
 	</div>	
 	
    <div id="myTabContent" class="container tab-content">
 		<div class="tab-pane fade active in" id="mainDish">
 			<ul style="font-family: cursive; font-size: large; list-style-type: none;">
-				<a data-toggle="modal" href="#pankoChicken"><li><span class="glyphicon glyphicon-unchecked">Panko Cheesy Chicken</span></li></a>
-				<a data-toggle="modal" href="#chickenChili"><li><span class="glyphicon glyphicon-unchecked">Chicken Chili</span></li></a>
-				<a data-toggle="modal" href="#yogurtChicken"><li><span class="glyphicon glyphicon-unchecked">Greek Yogurt Chicken</span></li></a>
+				<a data-toggle="modal" href="#pankoChicken"><li><span class="glyphicon glyphicon-heart">Panko Cheesy Chicken</span></li></a>
+				<a data-toggle="modal" href="#chickenChili"><li><span class="glyphicon glyphicon-heart">Chicken Chili</span></li></a>
+				<a data-toggle="modal" href="#yogurtChicken"><li><span class="glyphicon glyphicon-heart">Greek Yogurt Chicken</span></li></a>
 			</ul>	
 		</div>
 		<div class="tab-pane fade " id="appetizer">
 			<ul style="font-family: cursive; font-size: large; list-style-type: none;">
-				<a data-toggle="modal" href="#veggieDip"><li><span class="glyphicon glyphicon-unchecked">Greek Veggie Dip</span></li></a>
-				<a data-toggle="modal" href="#roastedPotatoes"><li><span class="glyphicon glyphicon-unchecked">Roasted Potatoes</span></li></a>
-				<a data-toggle="modal" href="#roastedBeans"><li><span class="glyphicon glyphicon-unchecked">Roasted Green Beans with Mushrooms</span></li></a>
+				<a data-toggle="modal" href="#veggieDip"><li><span class="glyphicon glyphicon-heart">Greek Veggie Dip</span></li></a>
+				<a data-toggle="modal" href="#roastedPotatoes"><li><span class="glyphicon glyphicon-heart">Roasted Potatoes</span></li></a>
+				<a data-toggle="modal" href="#roastedBeans"><li><span class="glyphicon glyphicon-heart">Roasted Green Beans with Mushrooms</span></li></a>
 			</ul>	
 		</div>
 		<div class="tab-pane fade " id="desert">
 			<ul style="font-family: cursive; font-size: large; list-style-type: none;">
-				<a data-toggle="modal" href="#almondCookies"><li><span class="glyphicon glyphicon-unchecked">Almond Sugar Cookies</span></li></a>
-				<a data-toggle="modal" href="#redVelvetBrownies"><li><span class="glyphicon glyphicon-unchecked">Red Velvet Batter Brownies</span></li></a>
-				<a data-toggle="modal" href="#smoreReeses"><li><span class="glyphicon glyphicon-unchecked">Smore's Peanut Butter Cup bars</span></li></a>
+				<a data-toggle="modal" href="#almondCookies"><li><span class="glyphicon glyphicon-heart">Almond Sugar Cookies</span></li></a>
+				<a data-toggle="modal" href="#redVelvetBrownies"><li><span class="glyphicon glyphicon-heart">Red Velvet Batter Brownies</span></li></a>
+				<a data-toggle="modal" href="#smoreReeses"><li><span class="glyphicon glyphicon-heart">Smore's Peanut Butter Cup bars</span></li></a>
 			</ul>	
 		</div>
 	</div>
@@ -57,7 +53,7 @@
 					<h4>Ingredients</h4>
 					<p>
 						<ul style="list-style-type:none;">
-							<img src="http://media-cache-ak0.pinimg.com/736x/3d/84/6e/3d846efff86f243d0fbef1e8d60a5c55.jpg"style="height:450px; width=300px;"class="pull-right img-rounded">
+							<img src="http://media-cache-ak0.pinimg.com/736x/89/e7/c3/89e7c353bec19f00c5d309b23951ccda.jpg"style="height:250px; width=100px;"class="pull-right img-rounded">
 							<li>4 chicken breast halves</li>
 							<li>1 c panko bread crumbs</li>
 							<li>2 c shredded parmesan</li>
@@ -353,7 +349,14 @@
 				</div>	
 			</div><!--close content-->
 		</div><!--close dialog-->	
-	</div><!--close modal-->		
-	
+	</div><!--close modal-->
+ 		
+	<!-- JavaScript plugins (requires jQuery) -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    <!-- Optionally enable responsive features in IE8 -->
+    <script src="js/respond.js"></script>	
+
   </body>
 </html>
